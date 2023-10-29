@@ -1,0 +1,129 @@
+_<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>MyJust Login</title>
+  <link rel="shortcut icon" href="../images/favicons.ico" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../css/custom.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:300,400,600,700,800" rel="stylesheet">
+  
+  
+</head>
+<style>
+	@media (min-width: 768px) {
+		/* #header_img {
+			display: none;
+    } */
+  }
+  @media (max-width: 768px) {
+		.login {
+      min-height: 100%;
+    }
+    h3 {
+      text-align: center;
+    }
+    .container {
+      padding: 0;
+    }    
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  body {
+    font-family: "Catamaran";
+    background: #f2f9ff;
+  }
+
+  html, body, .container-fluid, .no-gutter {
+    margin: auto;
+    height: 100%;
+  }
+
+</style>
+
+<body>
+
+<div class="container-fluid" >
+  <div class="row no-gutter">
+    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+    <div class="col-md-8 col-lg-6">
+        <div class="login d-flex align-items-center py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-lg-8 mx-auto">
+            <div class="text-center" id="header_img">
+              <a href="">
+                <img src="../images/logo.png" width="100%">
+              </a>
+            </div>
+              <h3 class="login-heading mt-3 text-success" style="font-weight: 600;">MyJUST Login</h3>
+              <form id="form_Login" name="form_Login" >
+                <div class="alert alert-danger alert-dismissible fade show mt-3" id="messageError" name="messageError" style="display: none;" role="alert">
+                                </div>
+                <input type="text" id="username" name="username" class="form-control" placeholder="Student ID" required="" style="border-radius:2rem;padding: 1.5rem;">
+                <input type="password" id="password" name="password" class="form-control mt-3" placeholder="Password" required="" style="border-radius:2rem;padding: 1.5rem;">
+
+                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-3 mt-4" type="submit" name="save" id="save">Sign in</button>
+
+                <div class="row mt-3">
+                  <div class="d-flex justify-content-center" style="margin: auto;">
+                    <a href="https://twitter.com/jamhuriyauniv" class="p-3" title="">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="https://www.facebook.com/Jamhuriya" class="p-3" title="">
+                      <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="https://www.instagram.com/jamhuriya.university/" class="p-3" title="">
+                      <span class="fa fa-instagram"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/school/jamhuriya-university-of-science-&-technology/" class="p-3" title="">
+                      <span class="fa fa-linkedin"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div style="margin: auto;">
+                    <span> &copy; All rights reserved 2023</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="../assets/js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<!-- <script>
+  var param;
+  var parameters = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+  param = parameters[0].split('=');
+  if (param[1] != null) {
+      $('#messageError').css("display", "block");
+  }
+
+      
+</script> -->
+
+    
